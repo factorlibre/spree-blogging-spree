@@ -1,0 +1,52 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  activerecord:
+    attributes:
+      spree/blog_entry:
+        title: Título
+        body: Cuerpo
+        summary: Resumen
+        permalink: Enlace Permanente
+        published_at: Publicado en
+        visible: Visible
+        author_id: Autor
+        tag_list: Etiquetas
+        category_list: Categorías
+      spree/user:
+        nickname: Apodo
+        website_url: URL Sitio Web
+        google_plus_url: URL Google Plus
+        bio_info: Información Biografía
+  spree:
+    title: Título
+    body: Cuerpo
+    summary: Resumen
+    permalink: Enlace Permanente
+    published_at: Publicado en
+    visible: Visible
+    author_id: Autor
+    tag_list: Etiquetas
+    category_list: Categorías
+    nickname: Apodo
+    website_url: URL Sitio Web
+    google_plus_url: URL Google Plus
+    bio_info: BInformación Biografía
+    blog: "Blog"
+    blog_entries: "Entradas Blog"
+    new_blog_entry: "Nueva Entrada Blog"
+    no_blog_entries: "No se han encontrado entradas en el blog."
+    blog_entry_featured_image: Imagen Destacada
+    posted_on: Publicado en
+    posted_in: Publicado en el
+    tagged: Etiquetado
+    by: por
+    blog_read_more: Leer más
+    blog_archive: Archivo
+    blog_tag: Etiqueta
+    blog_category: Categoría
+    blog_author: Autor
+  time:
+    formats:
+      blog_date: "%e %b %Y"
